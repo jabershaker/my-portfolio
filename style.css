@@ -7,6 +7,13 @@ body {
 h1{
     font-size: 45px;
 }
+
+h2 {
+    font-size: 40px;
+}
+p {
+    color: dimgrey;
+}
 .myportfolio {
     color: orange;
 }
@@ -32,6 +39,12 @@ h1{
     background-position: right;
 }
 
+.experience-area {
+    background-image: url("photo/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 section {
     height: 500px;
     padding-bottom: 100px;
@@ -51,4 +64,25 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.box-area {
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    border-radius: 5px;
+
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
